@@ -1,0 +1,27 @@
+.map {
+    width: 1200px;
+    height: 100vh;
+  }
+  .mouse-position {
+      position: absolute;
+      left: 10px;
+      bottom: 0;
+      margin: 8px;
+  
+      
+  }
+  .change {
+    left: 40px;
+    bottom: 40px;
+    position: absolute;
+  }
+  
+  .popup {
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: rgba(150, 200, 150, 0.9);
+    padding: 2px;
+    width: 350px;
+    height: 100px;
+    
+  }

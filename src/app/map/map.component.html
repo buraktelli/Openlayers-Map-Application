@@ -1,0 +1,27 @@
+
+<div #map class="map"></div>
+<div id="info" style="display: none;"></div>
+<div #popup class="popup">
+    <div>
+        Id : {{popupObj.id}}<br>
+        Name : {{popupObj.name}}<br>
+        Type: {{popupObj.type}}<br>
+        {{popupObj.coord}}<br>
+    </div>
+</div>
+<div #mousePosition class="mouse-position"></div>
+<div class="change">
+    <button (click)="changeMod()">
+        {{mouseOver ? 'TRUE' : 'FALSE'}}
+    </button>
+    <button (click)="changeBasemap()">Change</button>
+    <button (click)="getAllIntersections()">Intersections</button>
+    <button (click)="insert()">Insert </button>
+    <!-- <button [disabled]="false">Disabled Button</button> -->
+
+    <nav>
+        <ul>
+            <li><a routerLink="/login-component">Login Component</a></li>
+        </ul>
+    </nav>
+</div>
